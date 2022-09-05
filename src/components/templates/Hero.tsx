@@ -7,13 +7,13 @@ import { Logo } from '@/components/templates/Logo';
 export default function Hero() {
   return (
     <Section yPadding='py-8' full>
-      <div className=' flex w-full items-center justify-between'>
+      <div className='flex w-full items-center justify-between'>
         <Logo />
         <div>
           <Button>Login</Button>
         </div>
       </div>
-      <div className='flex h-full flex-col items-center md:flex-row'>
+      <div className='mt-8 flex h-full flex-col items-center md:mt-0 md:flex-row'>
         <div className='flex-1'>
           <h2 className='text-6xl font-bold text-gray-900'>
             Lorem ipsum dolor sit amet.

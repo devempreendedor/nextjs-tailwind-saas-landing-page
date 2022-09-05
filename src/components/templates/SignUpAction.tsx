@@ -7,9 +7,11 @@ export default function SignUpAction() {
     <Section>
       <div className='flex flex-col items-center'>
         <h1>Join the waitlist now</h1>
-        <div className='mt-16 flex items-center'>
+        <div className='mt-16 flex flex-col items-center md:flex-row'>
           <TextField placeholder='Your email...' />
-          <Button className='ml-4'>Click to get early access</Button>
+          <Button className='mt-4 w-full md:ml-4 md:mt-0'>
+            Click to get early access
+          </Button>
         </div>
       </div>
     </Section>
